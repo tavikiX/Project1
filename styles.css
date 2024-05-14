@@ -10,28 +10,24 @@ nav
     padding: 10;
 }
 
-nav ul
-{
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li
-{
+nav ul li {
     display: inline;
     margin-right: 10px;
 }
 
-nav ul li a
-{
+nav ul li a {
     color: blue;
     text-decoration: double;
 }
 
 
-.container
-{
+.container {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
