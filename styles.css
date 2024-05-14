@@ -1,0 +1,39 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background-color: black;
+    padding: 10;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a
+{
+    color: transparent;
+    text-decoration: double;
+}
+
+
+.container
+{
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: maroon;
+}
