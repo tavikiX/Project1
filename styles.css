@@ -8,6 +8,7 @@ nav
 {
     background-image: url(Images/Home\ page.jpg);
     background-color: black;
+    background-size:auto;
     padding: 10;
 }
 
