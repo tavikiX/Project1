@@ -6,12 +6,12 @@ body
 }
 nav
 {
-    background-color: black;
+    background-color: gray;
     padding: 100;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: decimal;
     margin: 0;
     padding: 10;
 }
