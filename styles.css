@@ -6,16 +6,14 @@ body
 }
 nav
 {
-    background-image: url(Images/Home\ page.jpg);
     background-color: black;
-    background-size:contain;
-    padding: 10;
+    padding: 100;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10;
 }
 
 nav ul li {
