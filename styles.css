@@ -6,7 +6,8 @@ body
 }
 nav
 {
-    background-color: brown;
+    background-image: url(Images/Home\ page.jpg);
+    background-color: black;
     padding: 10;
 }
 
