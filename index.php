@@ -10,16 +10,16 @@
       if you do not comply, and that is:
     </p>
     
-    <p>  1.] You will have to accept, without argument, that half of your earnings are now going to us.</p>
+    <p> 1.] You will have to accept, without argument, that half of your earnings are now going to us.</p>
   
-    <p>  2.] All your assets or at least 50% of your assets will now belong to us.</p>
+    <p> 2.] All your assets or at least 50% of your assets will now belong to us.</p>
     
     <p>That is if you want to keep quiet about it.
       However, if you decide to go to court, we have documents signed by the judge and the governor,
       that says;
     </p>
     
-    <p>     
+    <p>
       "TO ANYONE WHO IS GUILTY OF COPYRIGHT ISSUES, A FINE OF 10 MILLION DOLLARS IS TO BE GIVEN
       BACK TO THE COMPANY WHICH IS THE VICTIM HERE, THAT IS [STAN'S CAR ENTREPRISES]"
     </p>
