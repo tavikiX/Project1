@@ -1,4 +1,5 @@
-<?php include('header.php'); ?>  <h1>All rights reserved.</h1>
+<?php include('header.php'); ?>  
+<h1>All rights reserved.</h1>
 <h2>DISCLAIMER:</h2>
 <p>
   If this site is for some reason duplicated, 50% assets of the fraudulent company
