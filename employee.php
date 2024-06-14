@@ -12,7 +12,7 @@
     $employeeData = array(
       "name" => "Austin Frank",
       "position" => "Manager",
-      "bio" => "Frank Austin has been with the company for 5 years..."
+      "bio" => "Frank Austin has been with the entreprise for 5 years and has served it to his highest potential..."
     );
 
     // Display employee details
