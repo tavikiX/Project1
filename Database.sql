@@ -4,7 +4,7 @@ CREATE TABLE CAR
     CarRegNo VARCHAR (25),
     CarPrice int,
     SellDate Date
-)
+);
 
 INSERT INTO PUBLIC.CAR
 (
@@ -20,13 +20,14 @@ CREATE TABLE EMPLOYEE
     EmpID int,
     EmpName VARCHAR(50),
     EmpEmail VARCHAR(50),
-)
+);
 
 INSERT INTO PUBLIC.EMPLOYEE
 (
     EmpID, EmpName, EmpEmail
-)
+);
+
 VALUES
-(19346723, 'Austin', 'austinF@Stan.com'),
-(45362786, 'Phillip', 'phillipM@Stan.com'),
+(19346723, 'Austin', 'austinF@Stan.com')
+(45362786, 'Phillip', 'phillipM@Stan.com')
 (56723323, 'Stanley', 'stanleyK@Stan.com');
