@@ -11,7 +11,7 @@ INSERT INTO PUBLIC.CAR
     CarType, CarRegNo, CarPrice, SellDate
 )
 VALUES
-('Mercedes', 'KDE 865L', 5000000, '16-05-2023'),
+('Mercedes', 'KDE 865L', 5000000, '16-05-2023');
 ('Toyota', 'KCT 129G', 3800000, '18-05-2023'),
 ('BMW','KDB 374K', 4000000, '20-05-2023');
 

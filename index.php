@@ -1,5 +1,6 @@
 <h1>Home Page</h1>
-<?php include('header.php'); ?>  <div class="container">
+<?php include('header.php'); ?>  
+<div class="container">
     <h1>WELCOME TO STAN'S CAR ENTREPRISES</h1>
     <p>Come and buy the fastest cars, with the best durability and can be used on all surfaces at affordable prices.</p>
     
