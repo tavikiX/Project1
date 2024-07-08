@@ -11,7 +11,7 @@
       
       if ($conn->query($insert_comments) === TRUE) {
         echo "New record inserted successfully";
-        header("Location: comment.php");
+        header("Location: FAQ.php");
         exit();
       } else {
         echo "Error: " . $insert_comments. "<br>" . $conn->error;
