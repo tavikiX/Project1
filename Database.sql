@@ -9,9 +9,9 @@ INSERT INTO CAR (
   CarType, CarRegNo, CarPrice, SellDate
 )
 VALUES
-  ('Mercedes', 'KDE 865L', 5000000, '2023-05-16'),
-  ('Toyota', 'KCT 129G', 3800000, '2023-05-18'),
-  ('BMW', 'KDB 374K', 4000000, '2023-05-20');
+  ('Mercedes', 'KDE 865L', 5000000, 2023-05-16),
+  ('Toyota', 'KCT 129G', 3800000, 2023-05-18),
+  ('BMW', 'KDB 374K', 4000000, 2023-05-20);
 
 CREATE TABLE EMPLOYEE (
   EmpID INT PRIMARY KEY, -- Added primary key constraint
