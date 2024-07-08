@@ -1,5 +1,12 @@
 <?php
-include_once("header.inc");
+include_once("DBConnection.php");
+ if(isset($_POST["Enter"])){
+  $Username =mysqli_real_escape_string($conn, addslashes( $_POST["Username"]));
+  $comment =mysqli_real_escape_string($conn, addslashes( $_POST["comment"]));
+  $rating =mysqli_real_escape_string($conn, addslashes( $_POST["rating"]));
+  $Problems =mysqli_real_escape_string($conn, addslashes( $_POST["Problems"]));
+ }
+
 ?>
 
 <!DOCTYPE html>
