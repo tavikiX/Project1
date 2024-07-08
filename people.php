@@ -3,17 +3,17 @@
     include_once("Templates/nav.php");
     include_once("DBConnection.php");
  if(isset($_POST["Enter"])){
-  $username =mysqli_real_escape_string($conn, addslashes( $_POST["username"]));
-  $comment =mysqli_real_escape_string($conn, addslashes( $_POST["comment"]));
-  $rating =mysqli_real_escape_string($conn, addslashes( $_POST["rating"]));
-  $Problems =mysqli_real_escape_string($conn, addslashes( $_POST["Problems"]));
+  $fullname =mysqli_real_escape_string($conn, addslashes( $_POST["fullname"]));
+  $employeeID =mysqli_real_escape_string($conn, addslashes( $_POST["employeeID"]));
+  $age =mysqli_real_escape_string($conn, addslashes( $_POST["age"]));
+  $email_address =mysqli_real_escape_string($conn, addslashes( $_POST["email_address"]));
 
-  $insert_comments = "INSERT INTO comments(username, comment, rating, problems)
-  VALUES ('$username', '$comment', '$rating', '$Problems')";
+  $insert_comments = "INSERT INTO comments(fullname, employeeID, age, email_address)
+  VALUES ('$fullname', '$employeeID', '$age', '$email_address')";
 
 if ($conn->query($insert_comments) === TRUE) {
   echo "New record inserted successfully";
-  header("Location: comment.php");
+  header("Location: people.php");
   exit();
 } else {
   echo "Error: " . $insert_comments. "<br>" . $conn->error;
