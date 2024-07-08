@@ -1,11 +1,29 @@
 <?php
 include_once("DBConnection.php");
  if(isset($_POST["Enter"])){
-  $Username =mysqli_real_escape_string($conn, addslashes( $_POST["Username"]));
+  $username =mysqli_real_escape_string($conn, addslashes( $_POST["username"]));
   $comment =mysqli_real_escape_string($conn, addslashes( $_POST["comment"]));
   $rating =mysqli_real_escape_string($conn, addslashes( $_POST["rating"]));
   $Problems =mysqli_real_escape_string($conn, addslashes( $_POST["Problems"]));
- }
+
+  $insert_comments = "INSERT INTO comments(username, comment, rating, problems)
+  VALUES ('$username', '$comment', '$rating', '$Problems')";
+
+if ($conn->query($insert_user) === TRUE) {
+  echo "New record inserted successfully";
+  header("Location: Comment.php");
+  exit();
+} else {
+  echo "Error: " . $insert_comments. "<br>" . $conn->error;
+}
+
+$conn->close();
+}
+?>
+
+}
+
+
 
 ?>
 
