@@ -1,6 +1,28 @@
 <?php
     include_once("Templates/header.php");
     include_once("Templates/nav.php");
+    include_once("DBConnection.php");
+ if(isset($_POST["Enter"])){
+  $username =mysqli_real_escape_string($conn, addslashes( $_POST["username"]));
+  $comment =mysqli_real_escape_string($conn, addslashes( $_POST["comment"]));
+  $rating =mysqli_real_escape_string($conn, addslashes( $_POST["rating"]));
+  $Problems =mysqli_real_escape_string($conn, addslashes( $_POST["Problems"]));
+
+  $insert_comments = "INSERT INTO comments(username, comment, rating, problems)
+  VALUES ('$username', '$comment', '$rating', '$Problems')";
+
+if ($conn->query($insert_comments) === TRUE) {
+  echo "New record inserted successfully";
+  header("Location: comment.php");
+  exit();
+} else {
+  echo "Error: " . $insert_comments. "<br>" . $conn->error;
+}
+
+$conn->close();
+}
+?>
+
 ?>
 
 <style>
