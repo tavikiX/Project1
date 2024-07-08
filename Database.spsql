@@ -1,10 +1,8 @@
-CREATE TABLE comments (
-  id INT PRIMARY KEY ,  
+CREATE TABLE comments (  
   username VARCHAR(255) NOT NULL,
   comment VARCHAR (255),
   rating INT,
-  problems VARCHAR(50),
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+  problems VARCHAR(50)
 );
 
 CREATE TABLE FAQ (
