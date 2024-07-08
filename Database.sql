@@ -12,7 +12,7 @@ CREATE TABLE EMPLOYEE (
 );
 
 CREATE TABLE comments (
-  id INT PRIMARY KEY AUTO_INCREMENT,  
+  id INT PRIMARY KEY ,  
   username VARCHAR(255) NOT NULL,
   comment TEXT NOT NULL,
   rating INT,
