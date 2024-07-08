@@ -68,6 +68,6 @@ $employee = generateRandomEmployee();
   <a href="people.html"id="peopleLink">people</a>
   <div id="employeeDetails"></div>
   
-</body>
-</html>
+  </body>
+  </html>
 
