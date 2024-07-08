@@ -4,10 +4,10 @@
     include_once("DBConnection.php");
     if(isset($_POST["Saerch"])){
         
-        $Querries =mysqli_real_escape_string($conn, addslashes( $_POST["Problems"]));
+        $Querries =mysqli_real_escape_string($conn, addslashes( $_POST["Querries"]));
       
-        $insert_comments = "INSERT INTO comments(username, comment, rating, problems)
-        VALUES ('$username', '$comment', '$rating', '$Problems')";
+        $insert_comments = "INSERT INTO faq(Querries)
+        VALUEs ('Querries')";
       
       if ($conn->query($insert_comments) === TRUE) {
         echo "New record inserted successfully";
