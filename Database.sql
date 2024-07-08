@@ -26,3 +26,12 @@ VALUES
   (19346723, 'Austin', 'austinF@Stan.com'),
   (45362786, 'Phillip', 'phillipM@Stan.com'),
   (56723323, 'Stanley', 'stanleyK@Stan.com');
+
+  CREATE TABLE comments (
+  ID INT PRIMARY KEY AUTO_INCREMENT,  
+  username VARCHAR(255) NOT NULL,
+  comment TEXT NOT NULL,
+  rating INT,
+  problems TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
