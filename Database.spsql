@@ -1,16 +1,3 @@
-CREATE TABLE CAR (
-  CarType VARCHAR(50),
-  CarRegNo VARCHAR(25) PRIMARY KEY,
-  CarPrice INT,
-  SellDate DATE
-);
-
-CREATE TABLE EMPLOYEE (
-  EmpID INT PRIMARY KEY,
-  EmpName VARCHAR(50),
-  EmpEmail VARCHAR(50)
-);
-
 CREATE TABLE comments (
   id INT PRIMARY KEY ,  
   username VARCHAR(255) NOT NULL,
