@@ -7,7 +7,7 @@
         $Querries =mysqli_real_escape_string($conn, addslashes( $_POST["Querries"]));
       
         $insert_comments = "INSERT INTO faq(Querries)
-        VALUEs ('Querries')";
+        VALUES ('Querries')";
       
       if ($conn->query($insert_comments) === TRUE) {
         echo "New record inserted successfully";
