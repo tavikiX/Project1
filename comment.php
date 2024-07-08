@@ -9,9 +9,9 @@ include_once("DBConnection.php");
   $insert_comments = "INSERT INTO comments(username, comment, rating, problems)
   VALUES ('$username', '$comment', '$rating', '$Problems')";
 
-if ($conn->query($insert_user) === TRUE) {
+if ($conn->query($insert_comments) === TRUE) {
   echo "New record inserted successfully";
-  header("Location: Comment.php");
+  header("Location: comment.php");
   exit();
 } else {
   echo "Error: " . $insert_comments. "<br>" . $conn->error;
