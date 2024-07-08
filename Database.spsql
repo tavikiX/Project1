@@ -1,8 +1,19 @@
 CREATE TABLE comments (
   id INT PRIMARY KEY ,  
   username VARCHAR(255) NOT NULL,
-  comment TEXT NOT NULL,
+  comment VARCHAR (255),
   rating INT,
-  problems TEXT,
+  problems VARCHAR(50),
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE FAQ (
+   Querries VARCHAR(50) 
+);
+
+CREATE TABLE people (
+   fullname VARCHAR(50),
+   employeeID INT,
+   age INT,
+   email_address VARCHAR(50)
 );

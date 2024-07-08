@@ -1,31 +1,8 @@
 <?php
-function generateRandomEmployee() {
-  $firstNames = ["Alice", "Bob", "Charlie",];
-  $lastNames = ["Smith", "Johnson", "Williams",];
-  $departments = ["Sales", "Marketing", "Engineering", "Customer Service", "Human Resources"];
-  
-  $firstName = $firstNames[array_rand($firstNames)];
-  $lastName = $lastNames[array_rand($lastNames)];
-  $department = $departments[array_rand($departments)];
-  
-  return [
-    "firstName" => $firstName,
-    "lastName" => $lastName,
-    "department" => $department,
-  ];
-}
-$employee = generateRandomEmployee();
-
+    include_once("Templates/header.php");
+    include_once("Templates/nav.php");
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Employees</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
 <style>
   body{
     background-image: url(Images/Employee.jpg);
@@ -44,18 +21,6 @@ $employee = generateRandomEmployee();
   }
 </style>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home page</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="people.html">people</a></li>
-      <li><a href="comment.html">Comment</a></li>
-      <li><a href="copyright.html">Copyright</a></li>
-      <li><a href="help.html">help me</a></li>
-      <li><a href="employee.php">Employees</a></li>
-      <li><a href="FAQ.html">FAQ</a></li>
-    </ul>
-  </nav>
 
 
   <h1>Stan's Employees.</h1>
@@ -67,7 +32,6 @@ $employee = generateRandomEmployee();
   <a href="comment.html"id="commentLink">Comment</a>
   <a href="people.html"id="peopleLink">people</a>
   <div id="employeeDetails"></div>
-  
-  </body>
-  </html>
 
+</body>
+</html>
